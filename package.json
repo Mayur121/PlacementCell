@@ -1,0 +1,40 @@
+{
+  "name": "placement_cell",
+  "version": "1.0.0",
+  "description": "Placement_cell - NodeJs Skill Test",
+  "main": "index.js",
+  "engines" : { 
+    "npm" : "^7.13.0",
+    "node" : "^16.2.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayur121/Placement-Cell.git"
+  },
+  "author": "Mayur Soni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayur121/Placement-Cell/issues"
+  },
+  "homepage": "https://github.com/Mayur121/Placement-Cell#readme",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "crypto": "^1.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "json2csv": "^5.0.7",
+    "mongoose": "^6.2.9",
+    "morgan": "^1.10.0",
+    "passport": "^0.5.2",
+    "passport-google-oauth": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "rotating-file-stream": "^3.0.3"
+  }
+}
