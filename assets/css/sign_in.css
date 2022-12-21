@@ -77,6 +77,7 @@ button:focus {
 button.ghost {
 	background-color: transparent;
 	border-color: #FFFFFF;
+	font-size: 15px;
 }
 
 form {
@@ -171,7 +172,7 @@ input {
 .overlay {
 	background: #FF416C;
 	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background: linear-gradient(to left, #f23a19, #f03b1b);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -181,7 +182,7 @@ input {
 	height: 100%;
 	width: 200%;
   	transform: translateX(0);
-	transition: transform 0.6s ease-in-out;
+	transition: transform 0.5s ease-in-out;
 }
 
 .container.right-panel-active .overlay {
