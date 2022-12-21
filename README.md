@@ -1,5 +1,5 @@
 # Placement_Cell
-Hosted on Heroku Link:- https://placement-cell-ms.herokuapp.com/
+Hosted on Heroku Link:- https://placementcell-41oe.onrender.com
 
 # Task
     • For Students we store the following details:
@@ -17,11 +17,3 @@ Hosted on Heroku Link:- https://placement-cell-ms.herokuapp.com/
     • Download a complete CSV of all the data with the following columns:
         ◦ Student id, student name, student college, student status, DSA Final Score, WebD Final Score, React Final Score, interview date, interview company, interview student result
         ◦ A student can have multiple entries based on the interviews she/he has given.
-
-# Routes & URL's
-localhost:8882/ -> Home Page
-localhost:8882/employees/sign_in -> For Sign In and Sign Up
-localhost:8882/employees/profile -> For displaying the profile of logged in Employee
-localhost:8882/students/list -> For Student list and creating form
-localhost:8882/interviews/list -> For fetching interview list, creating interview and alloting the interview
-localhost:8882/interviews/:id/students -> For updating the results of interview
